@@ -31,5 +31,3 @@ for ($i = 1; $i -le $files.Count; $i++) {
     $newFileName = "IMG_{0:D4}.jpg" -f $i
     Rename-Item -Path "$FolderPath\$oldFileName" -NewName $newFileName
 }
-
-#C:\Users\banni\lab_1_mat\source
